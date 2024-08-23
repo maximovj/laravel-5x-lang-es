@@ -1,23 +1,32 @@
-# Laravel 5x Lang Esp
+# Laravel 5x Lang Español
 
 Este repositorio contiene traducciones en Español para Laravel 5.x.
 
 # Versiones
 
-Estos ficheros con traducciones para validación, contraseñas, paginación y autenticación. <br/>
-Adicionalmente incluye internacionalización un fichero de ``.json``
+Este paquete proporciona los siguientes archivos de traducción:
+
+- Traducciones para validación.
+- Traducciones para contraseñas.
+- Traducciones para paginación.
+- Traducciones para autenticación.
+- Archivo de internacionalización en Español en formato `.json`.
 
 # Instrucciones
 
-Para configurar y cambiar idioma de Laravel 5.x sigue estas instrucciones:
+Para configurar el idioma español en tu aplicación Laravel 5.x, sigue estos pasos:
 
 - Paso 1) 
 
-Copiar el directorio ``es`` y el archivo ``es.json`` en la ruta de ``/resources/lang``
+ Verifica que el directorio `/resources/lang` exista. Si no está creado, créalo.
 
-- Paso 2)  
+- Paso 2) 
 
-Modificar el archivo ``/config/app.php `` 
+Copia el directorio ``es`` y el archivo ``es.json`` en la ruta de ``/resources/lang``.
+
+- Paso 3)  
+
+Modifica el archivo de configuración ``/config/app.php`` para establecer el idioma predeterminado en español:
 
 ```php 
     /*
@@ -32,4 +41,5 @@ Modificar el archivo ``/config/app.php ``
     */
 
     'locale' => 'es',
+
 ```
