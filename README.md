@@ -1,4 +1,4 @@
-# Laravel 5x Lang Español
+# laravel-5x-lang-es
 
 Este repositorio contiene traducciones en Español para Laravel 5.x.
 
